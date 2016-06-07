@@ -153,8 +153,8 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
   color: black;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -560,7 +560,7 @@ section#contact {
   background-color: whitesmoke;
 }
 section#contact .section-heading {
-  color: black;
+  color: white;
 }
 section#contact .form-group {
   margin-bottom: 25px;
