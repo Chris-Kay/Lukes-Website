@@ -152,9 +152,9 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: black;
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -233,7 +233,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: cornflowerblue;
+  color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -300,11 +300,6 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
-.about-us-text {
-   width: 50%;
-  margin: 0 auto;
-}
-
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -557,7 +552,10 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: whitesmoke;
+  background-color: #222222;
+  background-image: url('../img/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 section#contact .section-heading {
   color: white;
