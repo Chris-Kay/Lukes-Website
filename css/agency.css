@@ -270,7 +270,7 @@ header .crestLogo {
     height: 88px;
     overflow: hidden;
     text-indent: -999em;
-    background: url('img/logos/LukeLogo.png') no-repeat -0 0;
+    background: url('../img/logos/LukeLogo.png') no-repeat -0 0;
     float: left;
     margin: 90px 0 -20px -50px;
   }
