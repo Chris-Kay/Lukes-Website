@@ -4292,6 +4292,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
+    color: white;
   }
 }
 .navbar-toggle {
@@ -4365,6 +4366,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    color: white;
   }
 }
 .navbar-form {
@@ -4508,9 +4510,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777;
-}
-.navbar-default .navbar-nav > li > a {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a:hover,
