@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -27,11 +27,14 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
+		var navbar = document.getElementsByClassName('navbar-default')[0];
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+			navbar.style.zIndex=1;
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+			navbar.style.zIndex=0;
 		}
 		didScroll = false;
 	}
