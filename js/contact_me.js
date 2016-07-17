@@ -1,5 +1,5 @@
-  var $ = require('jquery'),
-  jqBootstrapValidation = require('./jqBootstrapValidation');
+  // var $ = require('jquery'),
+  // jqBootstrapValidation = require('./jqBootstrapValidation');
 
   $(function() {
 
