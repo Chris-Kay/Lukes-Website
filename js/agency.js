@@ -1,4 +1,4 @@
-// var $ = require('jquery');
+var $ = require('jquery');
 
 $(function() {
     $('a.page-scroll').bind('click', function(event) {

@@ -1,5 +1,7 @@
-  // var $ = require('jquery'),
-  // jqBootstrapValidation = require('./jqBootstrapValidation');
+define(['require', 'jqBootstrapValidation'], function (require) {
+
+  var $ = require('jquery'),
+  jqBootstrapValidation = require('./jqBootstrapValidation');
 
   $(function() {
 
@@ -71,3 +73,4 @@
   $('#name').focus(function() {
       $('#success').html('');
   });
+});

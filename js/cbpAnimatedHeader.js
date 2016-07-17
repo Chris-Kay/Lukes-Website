@@ -9,7 +9,7 @@
  * http://www.codrops.com
  */
 
-// var classie = require('./classie');
+var classie = require('./classie');
 
 var cbpAnimatedHeader = (function() {
 
